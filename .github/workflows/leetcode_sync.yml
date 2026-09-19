@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Sync Code
-        uses: joshcai/leetcode-sync@v1.7.0  # Uses the marketplace sync action
+        uses: joshcai/leetcode-sync@v1.7  # Uses the marketplace sync action
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
